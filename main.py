@@ -9,7 +9,7 @@ app = Flask('__name__')
 
 @app.route('/', methods=['GET'])
 def home():
-    return 'Bem vindo ao teste de sentimento!!!'
+    return 'Vamos fazer uma análise de sentimento!!!'
 
 
 @app.route('/getfile', methods=['POST'])
